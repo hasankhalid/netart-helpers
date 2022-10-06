@@ -48,6 +48,9 @@ function appendElement(parent_element, element_type, classList, ID, attributeArr
             returnMe.setAttribute(attr.type, attr.value); //apply id variable 
         }); //apply classnames to element
     }
+    if (ID) {
+        returnMe.setAttribute("id", ID);
+    }
     return returnMe;
 
     /* 
