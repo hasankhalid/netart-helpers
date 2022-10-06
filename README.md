@@ -4,7 +4,7 @@
 
 The helpers.js file contains four functions 
 > applyStyle => *This function is used to apply a single style to an HTML element, the syntax to apply the style would be* 
+> **applyStyle(document.getElementById('rect'), 'left', 20, 'px');** 
 
-**applyStyle(document.getElementById('rect'), 'left', 20, 'px');** 
 
 applyStyleObj, appendElement, randomInt
