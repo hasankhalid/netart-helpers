@@ -38,11 +38,6 @@ function appendElement(parent_element, element_type, classList, ID, attributeArr
             returnMe.classList.add(el_class);
         }); //apply classnames to element
     }
-    if (classList && classList.length > 0) {
-        classList.forEach((el_class) => {
-            returnMe.classList.add(el_class);
-        }); //apply classnames to element
-    }
     if (attributeArr && attributeArr.length > 0) {
         attributeArr.forEach((attr) => {
             returnMe.setAttribute(attr.type, attr.value); //apply id variable 
